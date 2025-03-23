@@ -1,2 +1,27 @@
 .idea
+
+
+venv/
+*venv/
 *venv
+.venv/
+env/
+ENV/
+.env/
+virtualenv/
+virtual_env/
+
+# Игнорировать файлы кэша Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать файлы IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+dist/
+build/
+*.egg-info/
